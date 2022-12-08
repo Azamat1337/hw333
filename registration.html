@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang = 'ru'>
+    <head>
+        <style>
+            body {
+                background-color: bisque;
+            }
+            button {
+                padding: 10px;
+                border: 2px solid;
+                margin-bottom: 10px;
+                
+            }
+            
+        </style>
+        <meta charset="utf-8">
+        <title>Registration</title>
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        <form action="#" method="get">
+            <fieldset>
+                <legend style="color:brown"><strong>Registration Form</strong></legend>
+                <div>
+                    <input id ="name" tabindex="1" type="text" placeholder="name"> <b>Your name</b>
+                </div>
+                <br>
+                <div>
+                    <input id="surname" tabindex="2" type="text" placeholder="surname"> <b>Your surname</b>
+                </div>
+                <br>
+                <div>
+                    <input type="radio" tabindex="3" value="male" name="gender"><label for="male">Male</label>
+                    <input type="radio" tabindex="3" value="female" name="gender"><label for="female">Female</label>
+                </div>
+                <br>
+                    <input type="tel" id="number" tabindex="4" placeholder="phone number"><label for="number"> <b>Your phone number</b></label>
+                <div>
+                    <br>
+                    <input type="password" name="password" tabindex="5" placeholder="pass"><label for="password"> <b>Password</b></label>
+                </div>
+                <br>
+                <div>
+                    <input type="email" name="email" tabindex="6" placeholder="mail"><b> Your email</b>
+                </div>
+                <br>
+                <div>
+                    <input type="checkbox" tabindex="7" name="humantest" value="yes" /> <label for="humantest"><b> Are you human?</b>
+                </div>
+                <br>
+                <div>
+                    <input type="date" tabindex="8" id="birthday" name="birthday"><label for="birthday"> <b>Birthday date</b></label>
+                </div>
+                <br>
+                <div>
+                    <button type="button"><a href="login.html" target="_blank">Complete registration</a></button>
+                </div>
+            </fieldset>
+        </form>
+    </body>
+</html>
